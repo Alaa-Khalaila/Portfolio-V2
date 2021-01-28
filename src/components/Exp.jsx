@@ -10,6 +10,7 @@ import mysql from "../media/mysql.png"
 
 
 function Exp() {
+  const skills = [html,css,js,reactt,boot,node,mysql,mongo]
   return (
     <div className="container-md exp">
       <div className="row text-center">
@@ -17,14 +18,7 @@ function Exp() {
           <h2>Experience With</h2>
         </div>
         <div className="col-12">
-            <img src={html}></img>
-            <img src={css}></img>
-            <img src={js}></img>
-            <img src={reactt}></img>
-            <img src={boot}></img>
-            <img src={node}></img>
-            <img src={mysql}></img>
-            <img src={mongo}></img>
+            {skills.map(e=><img src={e}></img>)}
         </div>
       </div>
     </div>
