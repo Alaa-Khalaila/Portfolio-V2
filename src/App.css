@@ -85,7 +85,7 @@ nav a:hover {
   padding-top: 160px;
   color: #ffffff;
 }
-.projects {
+.projects{
   padding: 70px 0;
   width: 100%;
   display: flex;
@@ -94,14 +94,17 @@ nav a:hover {
   margin: auto;
 }
 
-.projects img {
+.projects a {
   width: 33.33%;
   margin: 10px;
   cursor: pointer;
   transition: transform 0.5s;
 }
+.projects img{
+  width: 100%;
+}
 
-.projects img:hover {
+.projects a:hover {
   transform: scale(1.05);
 }
 

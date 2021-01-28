@@ -1,5 +1,6 @@
 import React from "react";
 import cv from "../media/resume.png";
+import { Link, Router, Route } from "react-router-dom";
 
 export const Contact = () => {
   return (
@@ -14,17 +15,23 @@ export const Contact = () => {
             </h3>
             <div className="icons ">
               <div class="row">
-                <a className="bg-info">
+                <a
+                  href="https://www.linkedin.com/in/alaa-khalila"
+                  className="bg-info"
+                >
                   <i class="fab fa-linkedin-in"></i>
                 </a>
 
-                <a className="bg-dark">
+                <a href="https://github.com/Alaa-Khalaila" className="bg-dark">
                   <i class="fab fa-github"></i>
                 </a>
-                <a className="bg-primary">
+                <a
+                  href="https://www.facebook.com/alaa.alkhlaila.12/"
+                  className="bg-primary"
+                >
                   <i class="fab fa-facebook-f"></i>
                 </a>
-                <a className="bg-danger">
+                <a href="alkhalila.alaa@gmail.com" className="bg-danger">
                   <i class="far fa-envelope"></i>
                 </a>
               </div>
@@ -33,15 +40,14 @@ export const Contact = () => {
               <h4>Phone: (+962) 780071021</h4>
               <h4>Email: alkhalila.alaa@gmail.com</h4>
             </div>
-            <img src={cv}></img>
-           
+            <a href="https://www.docdroid.net/F3fwG7O/alaa-khalila-v08-pdf"><img src={cv}></img></a>
           </div>
         </div>
       </div>
       <div className="copyright container-fluid bg-info">
-              <h5>Created by @Alaa Khalila</h5>
-              <h5>2021 All Rights Reserved</h5>
-            </div>
+        <h5>Created by @Alaa Khalila</h5>
+        <h5>2021 All Rights Reserved</h5>
+      </div>
     </div>
   );
 };
