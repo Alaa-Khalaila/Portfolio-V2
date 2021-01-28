@@ -1,0 +1,93 @@
+nav a {
+  color: #ffffff;
+  font-size: 32px;
+  margin: 20px 6px;
+  font-weight: 500;
+  transition: transform 0.5s;
+}
+
+nav a:hover {
+  color: rgb(183, 183, 241);
+  transform: scale(1.1) translateY(10px);
+}
+.myNav {
+  position: relative;
+  width: 100%;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  left: 50%;
+  top: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.name {
+  color: #ffffff;
+}
+.name h1 {
+  padding-top: 140px;
+  padding-bottom: 35px;
+  font-size: 80px;
+}
+.name h3 {
+  font-size: 40px;
+}
+
+/*-----About----*/
+.about {
+  margin-top: 340px;
+  border-bottom: 2px solid silver;
+  padding-bottom: 40px;
+}
+
+.about h2 {
+  font-weight: 700;
+}
+
+.about h4 {
+  padding: 20px 0;
+}
+.exp h2 {
+  padding: 60px 0;
+  font-weight: 700;
+}
+
+/*------- exp------*/
+
+.exp img {
+  height: 160px;
+  margin: 20px 20px;
+  transition: transform 0.5s;
+}
+
+.exp img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/*----portfolio----*/
+.port-bgc {
+  background: linear-gradient(
+    to bottom,
+    #e8e8e8 0%,
+    #b9d4eb 13%,
+    #2989d8 29%,
+    #2989d8 38%,
+    #2989d8 58%,
+    #2989d8 66%,
+    #2989d8 80%,
+    #2989d8 88%,
+    #e8e8e8 100%
+  );
+}
+.port {
+  padding-top: 200px;
+  color: #ffffff;
+}
+.port h4{
+  padding: 20px 0;
+}
